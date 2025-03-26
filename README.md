@@ -1,3 +1,5 @@
+NB! The "simpletopo.py"-file is from the lab "creating topologies for more info". For expected results (screenshots) use the submitted PDF "oblig2". 
+
 2 Making a simple web server
 
 2.1 Testing with a web browser
