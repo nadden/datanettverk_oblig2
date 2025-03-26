@@ -26,7 +26,7 @@ while True:
 
 		#Send one HTTP header line into socket
 		#Write your code here
-		connectionSocket.send("HTTP/1.1 200 OK\r\n\r\n".encode())
+		connectionSocket.send("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n".encode())
 
 		#End of your code
 
@@ -40,7 +40,7 @@ while True:
 	except IOError:
 		#Send response message for file not found
     	#Write your code here
-		connectionSocket.send("HTTP/1.1 404 Nor Found\r\n\r\n".encode())
+		connectionSocket.send("HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\n\r\n".encode())
 		connectionSocket.send("<html><head></head><body><h1>404 not Found</h1></body></html>\r\n".encode())
 
     	#End of your code

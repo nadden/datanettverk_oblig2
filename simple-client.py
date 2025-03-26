@@ -33,6 +33,3 @@ print(respons)
 
 # close socket
 client_socket.close()
-
-
-    
