@@ -5,7 +5,7 @@ import sys
 # object
 parser = argparse.ArgumentParser(description="HTTP Client")
 
-# arguments 
+# define arguments 
 parser.add_argument("-i", "--ip", required=True, type=str, help="Server IP address")
 parser.add_argument("-p", "--port", required=True, type=int, help="Server Port")
 parser.add_argument("-f", "--file", required=True, type=str, help="Filename to request")
